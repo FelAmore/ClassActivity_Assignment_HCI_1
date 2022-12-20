@@ -1,9 +1,9 @@
-$('#signup-modal').fadeIn()
+$('#signup-modal').hide()
 
 $('.signup-show').click(function() {
-	$('#signup-modal').fadeOut()
+	$('#signup-modal').show()
 }) 
 
 $('#close-modal').click(function() {
-	$('#signup-modal').fadeIn()
+	$('#signup-modal').hide()
 }) 
